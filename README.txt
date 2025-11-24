@@ -11,7 +11,7 @@ Afin de mettre en place le jeu, il est nécéssaire de configurer certains élé
 
          1) Démarrez le terminal puis passez en "sudo".                                                                                   
          2) Rendez vous dans votre dossier "home" (ou tout autre dossier de votre choix).                                                 
-         3) Installez l'environement virtuel Python à l'aide de la commande : apt install python3 virtualenv.                             
+         3) Installez l'environement virtuel Python à l'aide de la commande : *apt install python3 virtualenv*.                             
          4) Confirmez l'installation avec y ou o (en fonction de la langue du système).                                                   
          5) Créez un dossier ébergeant votre environement virtuel : virtualenv votre_nom_de_dossier                                       
          6) Dirigez vous dans votre dossier d'environement virtuel : cd votre_nom_de_dossier                                              
