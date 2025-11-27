@@ -390,7 +390,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"PASS01"  + Fore.WHITE)
+                            print(Fore.YELLOW +Flag_base["F1"] + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -417,7 +417,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"LOYOLA"  + Fore.WHITE)
+                            print(Fore.YELLOW +Flag_base["F2"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? entrée) :  ")
                             if awns == "":
                                 clear()
@@ -442,7 +442,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"Rami MALEK"  + Fore.WHITE)
+                            print(Fore.YELLOW +Flag_base["F3"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -467,7 +467,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"linkinpark"  + Fore.WHITE)
+                            print(Fore.YELLOW + Flag_base["F4"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -492,7 +492,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"Domino Park"  + Fore.WHITE)
+                            print(Fore.YELLOW +Flag_base["F5"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -517,7 +517,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"https://lesjouxjouxdewilly.us"  + Fore.WHITE)
+                            print(Fore.YELLOW + Flag_base["F6"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -542,7 +542,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"AlGo269$"  + Fore.WHITE)
+                            print(Fore.YELLOW + Flag_base["F7"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -568,7 +568,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"28111977@rgh"  + Fore.WHITE)
+                            print(Fore.YELLOW + Flag_base["F8"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -592,7 +592,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print(Fore.YELLOW +"FSOCIETY01"  + Fore.WHITE)
+                            print(Fore.YELLOW + Flag_base["F9"]  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -636,8 +636,9 @@ if start0 == "y" or "Y":
                         
 
                     elif num == "exit":
-                        exit()
                         clear()
+                        exit()
+                        
         
                     else:
                         clear()
@@ -651,6 +652,7 @@ if start0 == "y" or "Y":
         
         
         elif start == "n":
+            clear()
             exit()
         else:
             print("Veuillez spécifier une réponse valide ""y"" (commencer) ou ""n"" (quiter)")
