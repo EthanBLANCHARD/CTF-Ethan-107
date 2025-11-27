@@ -356,7 +356,7 @@ if start0 == "y" or "Y":
     print("Il y'a" + Fore.GREEN + " 10" + Fore.LIGHTWHITE_EX + " épreuves.")
     print("                                                                                                                            ")
     print("Chaque épreuve vous donnera un flag qu'il faudra rentrer dans le terminal afin de débloquer le prochain niveau.")
-    print("Un lien de téléchargement du niveau suivant vous sera remis après chaque flag donné.")
+    print("Toutes les épreuves se trouvent dans le dossier 'Épreuves', sous forme d'archives cryptées.")
     print("Pour dévérouiller l'archive, il vous faudra fournir le flag de l'épreuve précédente")
     print("Le fichier contiendra une documentation qui vous aidera à terminer le niveau.")
     print("Ce jeu se joue sur une machine linux équipée d'outils de pentest (Je conseille un Kali).") 
@@ -373,7 +373,7 @@ if start0 == "y" or "Y":
         if start == "y":
                 clear()
                 print(start_banner1)
-                print("Lien vers la première épreuve:"+ Fore.YELLOW + " https://mega.nz/file/SBkSnCxD#xaGmTrS6fVZbv0-ZbywOTzA7RBvQ4PXZYyroKQtG6G4" + Fore.WHITE)
+                
                 input(Fore.WHITE + "Entrée pour continuer ")
                 clear()
                 i1 = 1
@@ -390,7 +390,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la deuxième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/XFEyBb4a#H1cuELoVm3h7xFNEmsym8pvSbzBqaoiu0xQDq-gIM3s" + Fore.WHITE)
+                            print(Fore.YELLOW +"PASS01"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -417,7 +417,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la troisième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/aE1XWbpK#ucQSNWq_mZlTJy1enB3pvEI2TzGSZVxzuWNn4xBIfZs" + Fore.WHITE)
+                            print(Fore.YELLOW +"LOYOLA"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? entrée) :  ")
                             if awns == "":
                                 clear()
@@ -442,7 +442,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la quatrième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/LZ8HXCwC#kPqJgbCjEBM0gf2VCdNuIAAUvKMZP0Z7FTiuBHf3-j8" + Fore.WHITE)
+                            print(Fore.YELLOW +"Rami MALEK"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -467,7 +467,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la cinquième épreuve:" + Fore.YELLOW + " https://mega.nz/file/rcETVIyY#hCyq_ShEziDLxzZ1uui5yYFqOJ4zRVMoIqWjwipwUOA" + Fore.WHITE)
+                            print(Fore.YELLOW +"linkinpark"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -492,7 +492,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la sixième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/XR9lzZLB#9a9ST1ayXixUtV9J3HHWYTHM9zXnB3F_fTosJ6MSl2c" + Fore.WHITE)
+                            print(Fore.YELLOW +"Domino Park"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -517,7 +517,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la septième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/6Bd0jTqa#8iE-2BktnQ0v86GNRLLpHmz8RL-ekdBUbj3gTA7HY3E" + Fore.WHITE)
+                            print(Fore.YELLOW +"https://lesjouxjouxdewilly.us"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -542,7 +542,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la huitième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/fFUzRZCZ#3aO6BX-8kAIgybJ1jytgeaB_TTV_QQWrzcXIGN3IWNc" + Fore.WHITE)
+                            print(Fore.YELLOW +"AlGo269$"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -568,7 +568,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la neuvième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/jQkGDJoZ#qRG7F_Yj0Gf2zMLKZ0SxXx1HDr21XwwhqERPWSNrJ48" + Fore.WHITE)
+                            print(Fore.YELLOW +"28111977@rgh"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
@@ -592,7 +592,7 @@ if start0 == "y" or "Y":
                             clear()
                             print(right_banner)
                             print( Fore.GREEN +"Bonne réponse")
-                            print("Lien vers la dixième épreuve:"+ Fore.YELLOW + " https://mega.nz/file/TZNDQaYA#vJqUdtjs1By6wLFdXKwe3gG3jpgn65-bLPTnv-class" + Fore.WHITE )
+                            print(Fore.YELLOW +"FSOCIETY01"  + Fore.WHITE)
                             awns = input("Retourner au menu des épreuves ? (entrée) :  ")
                             if awns == "":
                                 clear()
