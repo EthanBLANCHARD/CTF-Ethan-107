@@ -34,3 +34,4 @@ Afin de mettre en place le jeu, il est nécéssaire de configurer certains élé
          6) Démarrez le programme "CTF.py" : python3 CTF.py
          7) Lisez attentivement les consignes.
          8) Bon jeu !!!
+ 
