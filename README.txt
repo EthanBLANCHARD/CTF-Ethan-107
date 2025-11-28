@@ -29,7 +29,7 @@ Afin de mettre en place le jeu, il est nécéssaire de configurer certains élé
          1) Démarez votre environement virtuel.
          2) Rendez vous dans le dossier "CTF Ethan 107".
          3) Ouvrez y un terminal en sudo.
-         4) Installez les prérequis : pip install -m requierments.txt
+         4) Installez les prérequis : pip install -r requierments.txt
          5) Nettoyez votre terminal (facultatif).
          6) Démarrez le programme "CTF.py" : python3 CTF.py
          7) Lisez attentivement les consignes.
