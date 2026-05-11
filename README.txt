@@ -3,7 +3,10 @@ Tout à été réalisé par mes soins.
 
 Afin de mettre en place le jeu, il est nécéssaire de configurer certains éléments:
 
-    
+-------------------------------------------------------------------------------
+|  IL EST NECESSAIRE D'UTILISER UNE MACHINE LINUX EQUIPEE D'OUTILS DE PENTEST. |
+|  JE CONSEILLE KALI. ELLE CONTIENT TOUT CE DONT VOUS AUREZ BESOIN POUR JOUER. |
+--------------------------------------------------------------------------------  
                                                                                                                                           
      IMPORTANT: Si vous rencontrez des problèmes avec l'utilisation de "pip" (externally-managed-environment), 
                 voici la métode a suivre:   
