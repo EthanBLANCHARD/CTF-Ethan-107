@@ -37,4 +37,8 @@ Afin de mettre en place le jeu, il est nécéssaire de configurer certains élé
          6) Démarrez le programme "CTF.py" : python3 CTF.py
          7) Lisez attentivement les consignes.
          8) Bon jeu !!!
- 
+
+
+NOTE IMPORTANTE: 
+L'épreuve 8 peut prendre un certain temps, si votre machine n'est pas très performante. 
+Je vous conseille de consulter le FLAG dans la documentation que vous pouvez télécharger sur le site.
